@@ -3,7 +3,7 @@ const filePath = require('path').join(__dirname, 'input.txt');
 const input = require('fs').readFileSync(filePath).toString().trim().split('\n');
 
 // /dev/stdin
-let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
+// let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 const frequency = {};
 let max = 0;
 let count;
