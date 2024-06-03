@@ -8,7 +8,7 @@ console.log('result',result);
 
 for (let i = 0; i < input.length; i++) {
     result[input.charCodeAt(i) - 97] ++;
-    // input.charCodeAt(i)는 input 문자열의 i번째 문자의 유니코드 값을 반환
+    // input.charCod가At(i)는 input 문자열의 i번째 문자의 유니코드 값을 반환
     // - 97: 'a'의 유니코드 값은 97이기 때문에 97을 빼면 0
     // 문자 'a'를 0으로, 'b'를 1로, ..., 'z'를 25로 변환
     // ++ : 이 부분은 result 배열의 해당 인덱스 값을 1 증가시킴, 각 알파벳이 문자열에 나타날 때마다 해당 알파벳의 빈도가 증가하도록..
@@ -28,6 +28,4 @@ for (let j = 0; j < 26; j++) {
       break;
     }
 }
-
-
 console.log(isSame ? "?" : String.fromCharCode(index + 65));
