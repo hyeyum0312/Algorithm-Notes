@@ -5,7 +5,7 @@ let input = require("fs").readFileSync(filePath).toString().trim().split('\n');
 // let input = require("fs").readFileSync("/dev/stdin").toString().trim().split('\n');
 
 
-[n, ...strings] = input; // 배열 분해 할당 , ex) 6, '(())'
+[n, ...strings] = input; 
 n = Number(n);
 
 class Node {
