@@ -37,6 +37,7 @@ for (let i = 0; i < trasnformExpression.length; i++) {
     // 연산자값에 pushValue값이 있다면 계산을 한다. 
     if (operators.includes(pushValue) === true) {
         //pushValue : *+/-
+        // pop: 배열에서 마지막 요소를 제거하여 그 값을 호출자(caller)에게 반환
 
         console.log('stack',stack);
         const secondValue = stack.pop();
