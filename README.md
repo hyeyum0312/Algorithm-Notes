@@ -2,14 +2,14 @@
 
 # Columbus Study 4기 상(上)반 활동
 
-![columbus-stamp.png](readme%205cb80599cb154fec9b44666dedd2a3c5/columbus-stamp.png)
+![/columbus-stamp.png](/columbus-stamp.png)
 
 ## 콜럼버스 스터디 4기는 5/27~6/22일, 28일간 진행합니다
 
 > **요일별 일정**
 > 
 
-![Group 1.svg](readme%205cb80599cb154fec9b44666dedd2a3c5/Group_1.svg)
+![/group_1.svg](/Group_1.svg)
 
 > **월별 일정**
 > 
