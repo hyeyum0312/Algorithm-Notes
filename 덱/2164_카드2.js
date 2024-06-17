@@ -66,3 +66,5 @@ while (cards.getLength() !== 1) { // 길이가 0 이 아니라면.
     cards.removeHead(); // 다시 맨 앞 노드를 제거합니다.
 }
 console.log(cards.getHead());
+
+// addrear

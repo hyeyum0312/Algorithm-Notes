@@ -1,9 +1,9 @@
-onst filePath = require("path").join(__dirname, "input.txt");
+const filePath = require("path").join(__dirname, "input.txt");
 // let input = require("fs").readFileSync(filePath).toString().trim().split(/\s/);
 
 // 도감에서 번호와 이름을 서로 매핑하여, 주어진 질문에 대해 번호 또는 이름을 출력하는 프로그램.
 let input = require("fs").readFileSync("/dev/stdin").toString().trim().split(/\s/);
-// 데이터를 문자열로 변환하고 양쪽 공백을 제거한다. 공백을 기준으로 나눈더, 
+// 데이터를 문자열로 변환하고 양쪽 공백을 제거한다. 공백을 기준으로 나눈더,
 
 const n = +input[0]; //  input 배열의 첫 번째와 두 번째 요소를 각각 N과 M으로 저장. 문자열을 숫자로 변환
 const m = +input[1];
